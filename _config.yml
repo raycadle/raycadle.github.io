@@ -16,10 +16,10 @@ timezone: America/Belize
 
 title: Ray's Notes # the main title
 
-tagline: A collection of thoughts, notes, and ramblings about cars, computers, and everything in-between! # it will display as the sub-title
+tagline: A collection of thoughts and notes about cars, computers, and more! # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A collection of thoughts, notes, and ramblings about cars, computers, and everything in-between!
+  A collection of thoughts and notes about cars, computers, and more!
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,7 +34,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Rayvon Cadle
+  name: Ray Cadle
   email: devel.kepada@aleeas.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -126,7 +126,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "/notes"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
