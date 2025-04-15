@@ -18,9 +18,6 @@
 
 > [!info]
 > Pages that have been modified in the past seven days.
-
 - [[Hello\|Hello]]
 
 { .block-language-dataview}
-
-[[Hello\|Hello]]
