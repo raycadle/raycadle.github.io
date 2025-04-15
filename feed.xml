@@ -3,49 +3,24 @@
     <title>Ray&#39;s Digital Garden</title>
     <link href="https://raycadle.github.io/feed.xml" rel="self" >
     <link href="https://raycadle.github.io" >
-    <updated>2025-04-15T21:28:37Z</updated>
+    <updated>2025-04-15T21:29:59Z</updated>
     <id>https://raycadle.github.io</id>
         <entry>
             <title>
                 Home
                 
             </title>
-            <updated>2025-04-15T21:28:28Z</updated>
+            <updated>2025-04-15T02:56:30.616Z</updated>
             <id>https://raycadle.github.io/</id>
             <content type="html">
-                &lt;div class=&quot;title&quot;&gt;Welcome!&lt;/div&gt;
-&lt;h1 id=&quot;inbox-inbox&quot; tabindex=&quot;-1&quot;&gt;📥 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://raycadle.github.io/404&quot; target=&quot;&quot;&gt;Inbox&lt;/a&gt;&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!info]&lt;br /&gt;
-Pages that are not yet sorted.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://raycadle.github.io/404&quot; target=&quot;&quot;&gt;Binary Alphabets&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;recents-recents&quot; tabindex=&quot;-1&quot;&gt;🕛 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://raycadle.github.io/404&quot; target=&quot;&quot;&gt;Recents&lt;/a&gt;&lt;/h1&gt;
+                &lt;h2 id=&quot;recently-updated&quot; tabindex=&quot;-1&quot;&gt;🕛 Recently Updated&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info]&lt;br /&gt;
 Pages that have been modified in the past seven days.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://raycadle.github.io/hello/&quot;&gt;Hello&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p class=&quot;block-language-dataview&quot;&gt;&lt;/p&gt;
 
             </content>
             <link href="https://raycadle.github.io/" >
-        </entry>
-        <entry>
-            <title>
-                Hello
-                
-            </title>
-            <updated>2025-04-15T21:28:28Z</updated>
-            <id>https://raycadle.github.io/hello/</id>
-            <content type="html">
-                &lt;h1 id=&quot;hello&quot; tabindex=&quot;-1&quot;&gt;Hello&lt;/h1&gt;
-&lt;p&gt;This is the first post to test the plug-in. It may disappear soon.&lt;/p&gt;
-
-            </content>
-            <link href="https://raycadle.github.io/hello/" >
         </entry>
 </feed>
