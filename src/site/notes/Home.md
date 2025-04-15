@@ -1,23 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2025-03-30T15:26:51.812-06:00","updated":"2025-04-14T20:56:30.616-06:00"}
 ---
 
 
-<div class="title">Welcome!</div>
 
-# 📥 [[Inbox\|Inbox]]
-
-> [!info]
-> Pages that are not yet sorted.
-
-- [[_Utilities/Inbox/Binary Alphabets\|Binary Alphabets]]
-
-{ .block-language-dataview}
-
-# 🕛 [[Recents\|Recents]]
+## 🕛 Recently Updated
 
 > [!info]
 > Pages that have been modified in the past seven days.
-- [[Hello\|Hello]]
 
 { .block-language-dataview}
