@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://raycadle.github">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://raycadle.github.io">
     <title>Ray&#39;s Digital Garden</title>
-    <link href="https://raycadle.github/feed.xml" rel="self" >
-    <link href="https://raycadle.github" >
-    <updated>2025-04-15T21:28:31Z</updated>
-    <id>https://raycadle.github</id>
+    <link href="https://raycadle.github.io/feed.xml" rel="self" >
+    <link href="https://raycadle.github.io" >
+    <updated>2025-04-15T21:28:37Z</updated>
+    <id>https://raycadle.github.io</id>
         <entry>
             <title>
                 Home
                 
             </title>
-            <updated>2025-04-15T21:28:23Z</updated>
-            <id>https://raycadle.github/</id>
+            <updated>2025-04-15T21:28:28Z</updated>
+            <id>https://raycadle.github.io/</id>
             <content type="html">
                 &lt;div class=&quot;title&quot;&gt;Welcome!&lt;/div&gt;
-&lt;h1 id=&quot;inbox-inbox&quot; tabindex=&quot;-1&quot;&gt;📥 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://raycadle.github/404&quot; target=&quot;&quot;&gt;Inbox&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&quot;inbox-inbox&quot; tabindex=&quot;-1&quot;&gt;📥 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://raycadle.github.io/404&quot; target=&quot;&quot;&gt;Inbox&lt;/a&gt;&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info]&lt;br /&gt;
 Pages that are not yet sorted.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://raycadle.github/404&quot; target=&quot;&quot;&gt;Binary Alphabets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://raycadle.github.io/404&quot; target=&quot;&quot;&gt;Binary Alphabets&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;recents-recents&quot; tabindex=&quot;-1&quot;&gt;🕛 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://raycadle.github/404&quot; target=&quot;&quot;&gt;Recents&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&quot;recents-recents&quot; tabindex=&quot;-1&quot;&gt;🕛 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://raycadle.github.io/404&quot; target=&quot;&quot;&gt;Recents&lt;/a&gt;&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info]&lt;br /&gt;
 Pages that have been modified in the past seven days.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://raycadle.github/hello/&quot;&gt;Hello&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://raycadle.github.io/hello/&quot;&gt;Hello&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
-            <link href="https://raycadle.github/" >
+            <link href="https://raycadle.github.io/" >
         </entry>
         <entry>
             <title>
                 Hello
                 
             </title>
-            <updated>2025-04-15T21:28:23Z</updated>
-            <id>https://raycadle.github/hello/</id>
+            <updated>2025-04-15T21:28:28Z</updated>
+            <id>https://raycadle.github.io/hello/</id>
             <content type="html">
                 &lt;h1 id=&quot;hello&quot; tabindex=&quot;-1&quot;&gt;Hello&lt;/h1&gt;
 &lt;p&gt;This is the first post to test the plug-in. It may disappear soon.&lt;/p&gt;
 
             </content>
-            <link href="https://raycadle.github/hello/" >
+            <link href="https://raycadle.github.io/hello/" >
         </entry>
 </feed>
