@@ -4,8 +4,8 @@
 name: Build and deploy site to Github Pages
 
 on:
-  #push:
-    #branches: [ "main" ]
+  push:
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
