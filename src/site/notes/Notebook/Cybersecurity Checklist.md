@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notebook/cybersecurity-checklist/","tags":["computers/cybersecurity"],"created":"2025-05-06T19:19:50.344-06:00","updated":"2025-05-22T10:01:10.638-06:00"}
+{"dg-publish":true,"dg-path":"Cybersecurity Checklist.md","permalink":"/cybersecurity-checklist/","tags":["computers/cybersecurity"],"created":"2025-05-06T19:19:50.344-06:00","updated":"2025-05-22T10:01:10.638-06:00"}
 ---
 
 # Online Accounts
