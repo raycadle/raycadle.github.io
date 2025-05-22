@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Home.md","permalink":"/home/","tags":["gardenEntry"],"created":"2025-03-30T15:26:51.812-06:00","updated":"2025-05-22T09:58:13.938-06:00"}
+{"dg-publish":true,"dg-path":"Home.md","permalink":"/home/","hide":true,"tags":["gardenEntry"],"created":"2025-03-30T15:26:51.812-06:00","updated":"2025-05-22T11:37:10.718-06:00"}
 ---
 
 
@@ -15,8 +15,8 @@ Welcome to my notebook — where I capture information on the various topics tha
 > [!info]-
 > Five (5) pages that have been modified in the past seven days.
 
-- [[Notebook/Cybersecurity Checklist\|Cybersecurity Checklist]]
 - [[Notebook/Home\|Home]]
+- [[Notebook/Cybersecurity Checklist\|Cybersecurity Checklist]]
 - [[Notebook/Influence\|Influence]]
 - [[Notebook/Japanese Alphabet\|Japanese Alphabet]]
 - [[Notebook/The Richest Man in Babylon\|The Richest Man in Babylon]]
