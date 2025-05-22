@@ -3,35 +3,8 @@
     <title>Ray&#39;s Notebook</title>
     <link href="https://raycadle.github.io/feed.xml" rel="self" >
     <link href="https://raycadle.github.io" >
-    <updated>2025-05-22T17:55:23Z</updated>
+    <updated>2025-05-22T17:58:42Z</updated>
     <id>https://raycadle.github.io</id>
-        <entry>
-            <title>
-                Home
-                
-            </title>
-            <updated>2025-05-22T17:48:56.010Z</updated>
-            <id>https://raycadle.github.io/</id>
-            <content type="html">
-                &lt;h1 id=&quot;ray-s-notebook&quot; tabindex=&quot;-1&quot;&gt;Ray&#39;s Notebook&lt;/h1&gt;
-&lt;p&gt;Welcome to my notebook — where I capture information on the various topics that I get interested in from time to time.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!tip]- Heads Up!&lt;br /&gt;
-This is an organic notebook. It is made up of notes that are ever evolving and maturing. They are initially written &lt;em&gt;very&lt;/em&gt; casually with very little editing — besides fixing typos and grammar — and eventually grow into something much more polished.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;recently-updated&quot; tabindex=&quot;-1&quot;&gt;🕛 Recently Updated&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!info]-&lt;br /&gt;
-Five (5) pages that have been modified in the past seven days.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class=&quot;block-language-dataview&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://raycadle.github.io/&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://raycadle.github.io/cybersecurity-checklist/&quot;&gt;Cybersecurity Checklist&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-            </content>
-            <link href="https://raycadle.github.io/" >
-        </entry>
         <entry>
             <title>
                 Cybersecurity Checklist
@@ -130,5 +103,31 @@ You should learn the basics of phishing and how to identify a phishing attempt.&
 
             </content>
             <link href="https://raycadle.github.io/cybersecurity-checklist/" >
+        </entry>
+        <entry>
+            <title>
+                Home
+                
+            </title>
+            <updated>2025-05-22T17:56:56.514Z</updated>
+            <id>https://raycadle.github.io/</id>
+            <content type="html">
+                &lt;h1 id=&quot;ray-s-notebook&quot; tabindex=&quot;-1&quot;&gt;Ray&#39;s Notebook&lt;/h1&gt;
+&lt;p&gt;Welcome to my notebook — where I capture information on the various topics that I get interested in from time to time.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!tip]- Heads Up!&lt;br /&gt;
+This is an organic notebook. It is made up of notes that are ever evolving and maturing. They are initially written &lt;em&gt;very&lt;/em&gt; casually with very little editing — besides fixing typos and grammar — and eventually grow into something much more polished.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;recently-updated&quot; tabindex=&quot;-1&quot;&gt;🕛 Recently Updated&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!info]-&lt;br /&gt;
+Five (5) pages that have been modified in the past seven days.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul class=&quot;block-language-dataview&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://raycadle.github.io/cybersecurity-checklist/&quot;&gt;Cybersecurity Checklist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://raycadle.github.io/" >
         </entry>
 </feed>
