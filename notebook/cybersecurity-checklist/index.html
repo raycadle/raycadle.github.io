@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Home</title>
+<title>Cybersecurity Checklist</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -73,11 +73,11 @@ CTRL + K
 <span class="foldername">Notebook</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/notebook/cybersecurity-checklist/">Cybersecurity Checklist </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/notebook/cybersecurity-checklist/">Cybersecurity Checklist </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">Home </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">Home </a>
 </div>
 </div>
 </div>
@@ -110,29 +110,100 @@ CTRL + K
 <header>
 <div class="header-meta">
 <div class="header-tags">
+<a class="tag" onclick="toggleTagSearch(this)">
+#computers/cybersecurity
+</a>
 </div>
-</div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-05-06T19:19:50.344-06:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-05-22T10:01:10.638-06:00"></span></div></div></div>
 </header>
-<h1 id="ray-s-notebook" tabindex="-1">Ray's Notebook</h1>
-<p>Welcome to my notebook — where I capture information on the various topics that I get interested in from time to time.</p>
-<div class="callout is-collapsible is-collapsed" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> Heads Up!<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<h1 id="online-accounts" tabindex="-1">Online Accounts</h1>
+<h2 id="use-a-password-manager" tabindex="-1">Use a Password Manager</h2>
+<p>A password manager helps you create and store unique passwords for each online service you use. Having a unique password ensures that if one service is hacked, the compromised password won’t allow access to all of your other accounts.</p>
+<p>At the very minimum, you should have a unique password for high-value accounts like your email and bank accounts.</p>
+<p>Apps<br>
+• Bitwarden<br>
+• Proton pass<br>
+• KeePass</p>
+<h2 id="use-two-factor-authentication" tabindex="-1">Use Two-Factor Authentication</h2>
+<p>Two-factor authentication (2FA) adds an extra layer of security on top of passwords. It ensures that someone logging into an account is who they say they are by requiring an extra piece of information besides the account password.<br>
+This extra information is usually either &quot;something you know&quot;, &quot;something you have&quot;, or &quot;something you are&quot; — for example, a biometric signal like FaceID.</p>
+<p>You should not use your phone number as a two-factor method.</p>
+<p>At the minimum 2FA should be installed on accounts that allow access to other accounts: e.g. an email, Google, or Apple ID. For stronger security, ensure that 2FA is enabled on every service that supports it.</p>
+<div class="callout" data-callout="note"><div class="callout-title"><div class="callout-title-inner">Note</div></div>
 <div class="callout-content">
 <p>
-This is an organic notebook. It is made up of notes that are ever evolving and maturing. They are initially written <em>very</em> casually with very little editing — besides fixing typos and grammar — and eventually grow into something much more polished.</p>
+Using an all-in-one solution like Bitwarden for both password management and 2FA creates a single point of failure. Take this into account when picking your 2FA client. Be sure to back-up any recovery codes given to you during the 2FA setup process, otherwise you risk locking yourself out of your accounts.</p>
 </div></div>
-<h2 id="recently-updated" tabindex="-1">🕛 Recently Updated</h2>
-<div class="callout is-collapsible is-collapsed" data-callout="info"><div class="callout-title"><div class="callout-title-inner">Info</div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
-<div class="callout-content">
-<p>
-Five (5) pages that have been modified in the past seven days.</p>
-</div></div>
-<ul class="block-language-dataview">
-<li><a class="internal-link" target="" data-note-icon="" href="/notebook/cybersecurity-checklist/">Cybersecurity Checklist</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/">Home</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Influence</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">Japanese Alphabet</a></li>
-<li><a class="internal-link is-unresolved" href="/404" target="">The Richest Man in Babylon</a></li>
-</ul>
+<p>Apps<br>
+• Aegis<br>
+• Bitwarden Authenticator<br>
+• Ente Auth<br>
+• Bitwarden<br>
+• Proton Pass<br>
+• KeePass</p>
+<h2 id="use-a-privacy-first-email-provider" tabindex="-1">Use a Privacy-First Email Provider</h2>
+<p>You should use an email provider that doesn’t read your email or gather data about your conversations to target you with ads.</p>
+<p>Services<br>
+• Proton Mail<br>
+• Tutanota</p>
+<h1 id="web-browsing" tabindex="-1">Web Browsing</h1>
+<h2 id="use-a-privacy-first-web-browser" tabindex="-1">Use a Privacy-First Web Browser</h2>
+<p>You should use a web browser that protects you from tracking, fingerprinting, and unwanted advertisements.<br>
+Modern browsers have made it simple to transfer your bookmarks and preferences in order to reduce switching pains.</p>
+<p>Apps<br>
+• Brave<br>
+• Firefox<br>
+• Librewolf<br>
+• Vivaldi<br>
+• Tor</p>
+<h2 id="use-a-privacy-first-search-engine" tabindex="-1">Use a Privacy-First Search Engine</h2>
+<p>You should use a search engine that protects you from tracking, fingerprinting, and unwanted advertisements. DuckDuckGo is a privacy-first search engine that does not store your search history, has strict location and personalization permissions, and publishes regular content teaching people how to be safer on the web.</p>
+<p>Services<br>
+• Startpage<br>
+• DuckDuckGo<br>
+• Brave Search</p>
+<h1 id="mobile-devices" tabindex="-1">Mobile Devices</h1>
+<h2 id="create-a-strong-device-passcode" tabindex="-1">Create a Strong Device Passcode</h2>
+<p>A four-digit passcode for your phone or other devices is no longer considered secure. You should use a six-digit passcode at the very minimum, and for extra security use a 12+ character passcode containing both numbers and letters. Biometrics, such as fingerprints and FaceID, should be disabled when traveling internationally, as they are not globally protected by law.</p>
+<p>You should enforce a strict lock policy on your devices, such as auto-locking after five minutes or less. Always require a passcode immediately after waking the screen and ensure that your devices are not left unattended for more than a minute or two.</p>
+<h2 id="encrypt-your-devices" tabindex="-1">Encrypt Your Devices</h2>
+<p>If your phone or computer is ever stolen, a thief may try to read or export your personal data. If your device is unencrypted, hackers will have access to everything stored on that device, including photos, emails, documents, and contacts.</p>
+<p>You should enable encryption on every phone and computer you use. Encrypting your devices makes it nearly impossible for a thief to read your data without having your encryption password.</p>
+<h2 id="review-device-permissions" tabindex="-1">Review Device Permissions</h2>
+<p>You should review all applications that have access to your files, camera, location, and microphone. Ensure that you trust apps with sensitive permissions.</p>
+<h2 id="keep-devices-updated" tabindex="-1">Keep Devices Updated</h2>
+<p>Many of the most damaging hacks in recent history were only possible because someone failed to update software. While update notifications delivered by your smartphone, computer, and other internet-connected devices can be disruptive, applying those updates in a timely manner is the single-most effective action you can take to protect yourself from these types of attacks.</p>
+<p>You should apply software updates to every device you own as soon as they are made available, and develop a habit of checking for updates on devices that do not notify you of available patches to ensure their security.</p>
+<h1 id="network-connections" tabindex="-1">Network Connections</h1>
+<h2 id="use-privacy-friendly-dns-providers" tabindex="-1">Use Privacy-Friendly DNS Providers</h2>
+<p>DNS (Domain Name Servers) are the internet's equivalent of a phone book. They translate a name like '<a href="http://google.com" target="_blank" class="external-link">google.com</a>' into an IP address. By default, DNS is slow and insecure. Many internet service providers track and log data that flows through DNS, in some cases reselling this data to advertisers.</p>
+<p>A good alternative to your ISP's default is Quad9 (9.9.9.9), which focuses on security and privacy in your everyday browsing. It's a non-profit founded by the Global Cyber Alliance, IBM, and Packet Clearing House, that blocks known malicious domains, and not collect any identifying data from users.</p>
+<p>More feature-packed alternatives include Adguard and, my personal favorite, NextDNS. These providers allow you to create adblock lists at the DNS level, which is a very powerful implementation of adblocking. This method prevents any requests to ad domains from connecting, which speeds up network connections slightly.</p>
+<h2 id="enable-dns-over-tls" tabindex="-1">Enable DNS-over-TLS</h2>
+<p>Most modern devices have adopted a network security feature called DNS-over-TLS, or Private DNS in Android's case. This feature overwrites the default DNS provider of whatever network you are on with the one you specify. This allows greater control over your network communication, without needing any repetitive configuration on a per network basis.</p>
+<h1 id="social-media-and-amp-communication" tabindex="-1">Social Media &amp; Communication</h1>
+<h2 id="remove-photo-metadata" tabindex="-1">Remove Photo Metadata</h2>
+<p>Geotagging is the process of adding geographical identification to media files (photos and videos, for example). Anyone who has access to these tagged media files can read this data and learn where the photo was taken. Most social media sites strip the EXIF data from photos, but if you're hosting your own photos, be aware that the geolocation can give away your exact location.</p>
+<p>You should understand how location metadata is attached to your media and take steps to ensure you are not uploading sensitive information with your files.</p>
+<h2 id="review-your-social-media-privacy-settings" tabindex="-1">Review Your Social Media Privacy Settings</h2>
+<p>Over the years social media companies are able to gather staggering amounts of data about you, your interests, who you talk to, where you go, what you buy, and so much more.</p>
+<p>If you‘re not ready to give up social media quite yet, you should take the time to review your security and privacy settings. Visualizing the amount of information that social media companies know about you may be enough to curb that unhealthy newsfeed obsession.</p>
+<h2 id="use-encrypted-messaging-apps" tabindex="-1">Use Encrypted Messaging Apps</h2>
+<p>When sharing sensitive information over chat, you should be using a secure, end-to-end encrypted messaging service. End-to-end encryption ensures that only you and your intended recipient are able to view messages. Your messages will appear scrambled (and will be nearly-impossible to unscramble) to anyone else, including app developers and ISPs.</p>
+<p>Apps<br>
+• Signal<br>
+• Session<br>
+• Whatsapp<br>
+• iMessage</p>
+<h1 id="physical-and-amp-mental-protection" tabindex="-1">Physical &amp; Mental Protection</h1>
+<h2 id="review-the-privacy-of-your-physical-space" tabindex="-1">Review the Privacy of Your Physical Space</h2>
+<p>You should add a webcam cover on your laptop and desktop computers. A webcam cover provides peace of mind when entering and exiting video calls that you are only visible when you choose to be.</p>
+<p>You should protect yourself from people shoulder-surfing when working in a public space, such as a cafe or on a plane. A privacy screen blocks side views outside a 60 degree viewing angle.</p>
+<h2 id="educate-yourself-about-phishing-attacks" tabindex="-1">Educate Yourself About Phishing Attacks</h2>
+<p>Phishing is an attempt to obtain sensitive information (like an account password) by disguising as a trustworthy person or company. Phishing often occurs via email where a hacker will use social engineering to convince someone to click a link that goes to a fake login page. The fake login page then sends anything the victim types (including usernames and passwords) to the hacker.</p>
+<p>In recent years phishing attacks have become increasingly sophisticated and hackers are learning to use data that people put on the web to create highly specific and targeted attacks.</p>
+<p>Smart people are not immune to phishing.<br>
+You should learn the basics of phishing and how to identify a phishing attempt.</p>
 </main>
 <aside>
 <div class="sidebar">
@@ -174,9 +245,59 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#ray-s-notebook">Ray's Notebook</a>
+<li><a href="#online-accounts">Online Accounts</a>
 <ol>
-<li><a href="#recently-updated">🕛 Recently Updated</a>
+<li><a href="#use-a-password-manager">Use a Password Manager</a>
+</li>
+<li><a href="#use-two-factor-authentication">Use Two-Factor Authentication</a>
+</li>
+<li><a href="#use-a-privacy-first-email-provider">Use a Privacy-First Email Provider</a>
+</li>
+</ol>
+</li>
+<li><a href="#web-browsing">Web Browsing</a>
+<ol>
+<li><a href="#use-a-privacy-first-web-browser">Use a Privacy-First Web Browser</a>
+</li>
+<li><a href="#use-a-privacy-first-search-engine">Use a Privacy-First Search Engine</a>
+</li>
+</ol>
+</li>
+<li><a href="#mobile-devices">Mobile Devices</a>
+<ol>
+<li><a href="#create-a-strong-device-passcode">Create a Strong Device Passcode</a>
+</li>
+<li><a href="#encrypt-your-devices">Encrypt Your Devices</a>
+</li>
+<li><a href="#review-device-permissions">Review Device Permissions</a>
+</li>
+<li><a href="#keep-devices-updated">Keep Devices Updated</a>
+</li>
+</ol>
+</li>
+<li><a href="#network-connections">Network Connections</a>
+<ol>
+<li><a href="#use-privacy-friendly-dns-providers">Use Privacy-Friendly DNS Providers</a>
+</li>
+<li><a href="#enable-dns-over-tls">Enable DNS-over-TLS</a>
+</li>
+</ol>
+</li>
+<li><a href="#social-media-and-amp-communication">Social Media & Communication</a>
+<ol>
+<li><a href="#remove-photo-metadata">Remove Photo Metadata</a>
+</li>
+<li><a href="#review-your-social-media-privacy-settings">Review Your Social Media Privacy Settings</a>
+</li>
+<li><a href="#use-encrypted-messaging-apps">Use Encrypted Messaging Apps</a>
+</li>
+</ol>
+</li>
+<li><a href="#physical-and-amp-mental-protection">Physical & Mental Protection</a>
+<ol>
+<li><a href="#review-the-privacy-of-your-physical-space">Review the Privacy of Your Physical Space</a>
+</li>
+<li><a href="#educate-yourself-about-phishing-attacks">Educate Yourself About Phishing Attacks</a>
 </li>
 </ol>
 </li>
@@ -186,7 +307,8 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"></div>
+<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/" data-note-icon="" class="backlink">Home</a>
+</div></div>
 </div>
 </div>
 </div>
@@ -199,6 +321,9 @@ On this page
 <iframe style="display:none;height:0;width:0" id="link-preview-iframe" src="">
 </iframe>
 <script>var opacityTimeout,contentTimeout,transitionDurationMs=100,iframe=document.getElementById("link-preview-iframe"),tooltipWrapper=document.getElementById("tooltip-wrapper"),tooltipContent=document.getElementById("tooltip-content"),linkHistories={};function hideTooltip(){opacityTimeout=setTimeout((function(){tooltipWrapper.style.opacity=0,contentTimeout=setTimeout((function(){tooltipContent.innerHTML="",tooltipWrapper.style.display="none"}),transitionDurationMs+1)}),transitionDurationMs)}function showTooltip(t){var e=t.target,o=e.getClientRects()[e.getClientRects().length-1],i=window.pageYOffset||document.documentElement.scrollTop,n=t.target.getAttribute("href");if(-1===n.indexOf("http")||-1!==n.indexOf(window.location.host)){let t=n.split("#")[0];linkHistories[t]?(tooltipContent.innerHTML=linkHistories[t],tooltipWrapper.style.display="block",setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)):(iframe.src=t,iframe.onload=function(){tooltipContentHtml="",tooltipContentHtml+='<div style="font-weight: bold; unicode-bidi: plaintext;">'+iframe.contentWindow.document.querySelector("h1").innerHTML+"</div>",tooltipContentHtml+=iframe.contentWindow.document.querySelector(".content").innerHTML,tooltipContent.innerHTML=tooltipContentHtml,linkHistories[t]=tooltipContentHtml,tooltipWrapper.style.display="block",tooltipWrapper.scrollTop=0,setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),console.log(e),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)}),tooltipWrapper.style.left=o.left-tooltipWrapper.offsetWidth/2+o.width/2+"px",window.innerHeight-o.top<tooltipWrapper.offsetHeight?tooltipWrapper.style.top=o.top+i-tooltipWrapper.offsetHeight-10+"px":window.innerHeight-o.top>tooltipWrapper.offsetHeight&&(tooltipWrapper.style.top=o.top+i+35+"px"),o.left+o.width/2<tooltipWrapper.offsetWidth/2?tooltipWrapper.style.left="10px":document.body.clientWidth-o.left-o.width/2<tooltipWrapper.offsetWidth/2&&(tooltipWrapper.style.left=document.body.clientWidth-tooltipWrapper.offsetWidth-20+"px")}}function setupListeners(t){t.addEventListener("mouseleave",(function(t){hideTooltip()})),tooltipWrapper.addEventListener("mouseleave",(function(t){hideTooltip()})),t.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout),showTooltip(t)})),tooltipWrapper.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout)}))}window.addEventListener("load",(function(t){document.querySelectorAll(".internal-link").forEach(setupListeners),document.querySelectorAll(".backlink-card a").forEach(setupListeners)}))</script>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy HH:mm",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
 <script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
 </body>
 </html>
