@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://raycadle.github.io">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://raycadle.github.io/">
     <title>Ray&#39;s Notebook</title>
-    <link href="https://raycadle.github.io/feed.xml" rel="self" >
-    <link href="https://raycadle.github.io" >
-    <updated>2025-05-23T02:36:53Z</updated>
-    <id>https://raycadle.github.io</id>
+    <link href="https://raycadle.github.io//feed.xml" rel="self" >
+    <link href="https://raycadle.github.io/" >
+    <updated>2025-05-23T19:38:44Z</updated>
+    <id>https://raycadle.github.io/</id>
         <entry>
             <title>
                 Cybersecurity Checklist
                 
             </title>
             <updated>2025-05-22T16:01:10.638Z</updated>
-            <id>https://raycadle.github.io/cybersecurity-checklist/</id>
+            <id>https://raycadle.github.io//cybersecurity-checklist/</id>
             <content type="html">
                 &lt;h1 id=&quot;online-accounts&quot; tabindex=&quot;-1&quot;&gt;Online Accounts&lt;/h1&gt;
 &lt;h2 id=&quot;use-a-password-manager&quot; tabindex=&quot;-1&quot;&gt;Use a Password Manager&lt;/h2&gt;
@@ -102,7 +102,7 @@ Modern browsers have made it simple to transfer your bookmarks and preferences i
 You should learn the basics of phishing and how to identify a phishing attempt.&lt;/p&gt;
 
             </content>
-            <link href="https://raycadle.github.io/cybersecurity-checklist/" >
+            <link href="https://raycadle.github.io//cybersecurity-checklist/" >
         </entry>
         <entry>
             <title>
@@ -110,7 +110,7 @@ You should learn the basics of phishing and how to identify a phishing attempt.&
                 
             </title>
             <updated>2025-05-22T17:56:56.514Z</updated>
-            <id>https://raycadle.github.io/</id>
+            <id>https://raycadle.github.io//</id>
             <content type="html">
                 &lt;h1 id=&quot;ray-s-notebook&quot; tabindex=&quot;-1&quot;&gt;Ray&#39;s Notebook&lt;/h1&gt;
 &lt;p&gt;Welcome to my notebook — where I capture information on the various topics that I get interested in from time to time.&lt;/p&gt;
@@ -128,6 +128,6 @@ Five (5) pages that have been modified in the past seven days.&lt;/p&gt;
 &lt;/ul&gt;
 
             </content>
-            <link href="https://raycadle.github.io/" >
+            <link href="https://raycadle.github.io//" >
         </entry>
 </feed>
