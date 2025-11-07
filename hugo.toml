@@ -12,7 +12,7 @@ theme = "PaperMod"
 [params.profileMode]
   enabled = true
   title = "✌️ Yo, I'm Ray!"
-  subtitle = "Car Nerd • Learner • Breaker of Things"
+  subtitle = "Learner • Car Nerd • Breaker of Things"
   imageUrl = "images/avatar.png"
   imageWidth = 160
   imageHeight = 160
