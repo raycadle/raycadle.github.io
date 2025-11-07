@@ -1,0 +1,42 @@
+baseURL = 'https://raycadle.github.io/'
+languageCode = 'en-us'
+title = "Ray Cadle"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+
+[params.profileMode]
+  enabled = true
+  title = "✌️ Yo, I'm Ray!"
+  subtitle = "Car Nerd • Learner • Breaker of Things"
+  imageUrl = "images/avatar.png"
+  imageWidth = 160
+  imageHeight = 160
+  
+  [[params.profileMode.buttons]]
+    name = "Notebook"
+    url = "/notes/"
+    
+  [[params.profileMode.buttons]]
+    name = "Projects"
+    url = "https://github.com/raycadle"
+
+[params.assets]
+  css = ["css/custom/custom.css"]
+
+[menu]
+  [[menu.main]]
+    identifier = "notebook"
+    name = "Notebook"
+    url = "/notes/"
+    weight = 10
+    
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "https://github.com/raycadle"
+    weight = 10

@@ -1,0 +1,48 @@
+/* === JetBrains Mono === */
+@font-face {
+  font-family: "JetBrainsMonoNerdFont";
+  src: url("/fonts/JetBrainsMonoNerd/JetBrainsMonoNerdFontMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JetBrainsMonoNerdFont";
+  src: url("/fonts/JetBrainsMonoNerd/JetBrainsMonoNerdFontMono-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JetBrainsMonoNerdFont";
+  src: url("/fonts/JetBrainsMonoNerd/JetBrainsMonoNerdFontMono-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+:root {
+  --font-mono: 'JetBrainsMonoNerdFontMono', monospace;
+
+  /* === Catppuccin Palette === */
+  --ctp-latte-base: #f5e0dc;
+  --ctp-latte-text: #4c4f69;
+  --ctp-mocha-base: #1e1e2e;
+  --ctp-mocha-text: #cdd6f4;
+}
+
+/* Light */
+body[data-theme="light"] {
+  background-color: var(--ctp-latte-base);
+  color: var(--ctp-latte-text);
+}
+
+/* Dark */
+body[data-theme="dark"] {
+  background-color: var(--ctp-mocha-base);
+  color: var(--ctp-mocha-text);
+}
+
+/* Typography */
+body { font-family: var(--font-mono); line-height: 1.6; }
+
+/* Links */
+a { color: var(--ctp-mocha-text); text-decoration: underline; }
+a:hover { opacity: 0.8; }
+
