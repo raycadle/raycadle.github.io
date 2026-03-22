@@ -5,6 +5,7 @@ theme = "PaperMod"
 
 [author]
   name = "Ray Cadle"
+  email = "hiii@raycadle.com"
 
 [params]
   defaultTheme = "auto"
