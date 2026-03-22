@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = "Ray Cadle"
 theme = "PaperMod"
 
+[author]
+  name = "Ray Cadle"
+
 [params]
   defaultTheme = "auto"
   disableThemeToggle = false
