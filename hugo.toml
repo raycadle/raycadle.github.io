@@ -19,7 +19,7 @@ theme = "PaperMod"
   
   [[params.profileMode.buttons]]
     name = "Notebook"
-    url = "https://raycadle.github.io/notebook/"
+    url = "https://raycadle.github.io/notebook"
     
   [[params.profileMode.buttons]]
     name = "Projects"
