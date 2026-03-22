@@ -17,6 +17,7 @@
   font-weight: 400;
   font-style: italic;
 }
+
 :root {
   --font-mono: 'JetBrainsMonoNerdFontMono', monospace;
 
@@ -25,24 +26,35 @@
   --ctp-latte-text: #4c4f69;
   --ctp-mocha-base: #1e1e2e;
   --ctp-mocha-text: #cdd6f4;
+
+  /* PaperMod variables */
+  --pm-background-light: var(--ctp-latte-base);
+  --pm-background-dark: var(--ctp-mocha-base);
+
+  --pm-text-light: var(--ctp-latte-text);
+  --pm-text-dark: var(--ctp-mocha-text);
+
+  --pm-primary-light: #f28fad; /* optional accent for light theme */
+  --pm-primary-dark: #f5c2e7; /* optional accent for dark theme */
 }
 
-/* Light */
-body[data-theme="light"] {
-  background-color: var(--ctp-latte-base);
-  color: var(--ctp-latte-text);
-}
-
-/* Dark */
-body[data-theme="dark"] {
-  background-color: var(--ctp-mocha-base);
-  color: var(--ctp-mocha-text);
-}
-
-/* Typography */
+/* Apply fonts */
 body { font-family: var(--font-mono); line-height: 1.6; }
 
-/* Links */
-a { color: var(--ctp-mocha-text); text-decoration: underline; }
-a:hover { opacity: 0.8; }
+/* PaperMod light theme */
+body[data-theme="light"] {
+  --pm-background: var(--pm-background-light);
+  --pm-text: var(--pm-text-light);
+  --pm-primary: var(--pm-primary-light);
+}
 
+/* PaperMod dark theme */
+body[data-theme="dark"] {
+  --pm-background: var(--pm-background-dark);
+  --pm-text: var(--pm-text-dark);
+  --pm-primary: var(--pm-primary-dark);
+}
+
+/* Links */
+a { color: var(--pm-primary); text-decoration: underline; }
+a:hover { opacity: 0.8; }
