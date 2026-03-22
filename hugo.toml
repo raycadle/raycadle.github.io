@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = "Ray Cadle"
 theme = "PaperMod"
 
+disableKinds = ["RSS"]
+
 [author]
   name = "Ray Cadle"
   email = "hiii@raycadle.com"
