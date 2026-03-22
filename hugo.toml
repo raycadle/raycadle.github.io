@@ -14,6 +14,7 @@ disableKinds = ["RSS"]
   disableThemeToggle = false
   ShowReadingTime = true
   ShowCodeCopyButtons = true
+  favicons = "favicon.ico"
 
 [params.profileMode]
   enabled = true
