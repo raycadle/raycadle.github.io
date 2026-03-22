@@ -19,11 +19,11 @@ theme = "PaperMod"
   
   [[params.profileMode.buttons]]
     name = "Notebook"
-    url = "/notes/"
+    url = "https://raycadle.github.io/notebook/"
     
   [[params.profileMode.buttons]]
     name = "Projects"
-    url = "https://github.com/raycadle"
+    url = "https://github.com/raycadle?tab=repositories"
 
 [params.assets]
   css = ["css/custom/custom.css"]
