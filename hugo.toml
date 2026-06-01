@@ -18,7 +18,7 @@ disableKinds = ["RSS"]
 [params.profileMode]
   enabled = true
   title = "✌️ Yo, I'm Ray!"
-  subtitle = "Learner • Car Nerd • Breaker of Things"
+  subtitle = "Learner • Car Nerd • Builder/Breaker of Things"
   imageUrl = "images/avatar.png"
   imageWidth = 160
   imageHeight = 160
@@ -26,6 +26,10 @@ disableKinds = ["RSS"]
   [[params.profileMode.buttons]]
     name = "Notebook"
     url = "https://raycadle.github.io/notebook"
+
+  [[params.profileMode.buttons]]
+    name = "Bookmarks"
+    url = "https://raycadle.github.io/bookmarks"
     
   [[params.profileMode.buttons]]
     name = "Projects"
@@ -40,6 +44,12 @@ disableKinds = ["RSS"]
     identifier = "notebook"
     name = "Notebook"
     url = "https://raycadle.github.io/notebook"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "bookmarks"
+    name = "Bookmarks"
+    url = "https://raycadle.github.io/bookmarks"
     weight = 10
     
   [[menu.main]]
