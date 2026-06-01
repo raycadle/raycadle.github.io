@@ -22,14 +22,15 @@ disableKinds = ["RSS"]
   imageUrl = "images/avatar.png"
   imageWidth = 160
   imageHeight = 160
-  
-  [[params.profileMode.buttons]]
-    name = "Notebook"
-    url = "https://raycadle.github.io/notebook"
+
 
   [[params.profileMode.buttons]]
     name = "Bookmarks"
     url = "https://raycadle.github.io/bookmarks"
+    
+  [[params.profileMode.buttons]]
+    name = "Notebook"
+    url = "https://raycadle.github.io/notebook"
     
   [[params.profileMode.buttons]]
     name = "Projects"
@@ -40,16 +41,17 @@ disableKinds = ["RSS"]
   favicons = "favicon.ico"
 
 [menu]
-  [[menu.main]]
-    identifier = "notebook"
-    name = "Notebook"
-    url = "https://raycadle.github.io/notebook"
-    weight = 10
 
   [[menu.main]]
     identifier = "bookmarks"
     name = "Bookmarks"
     url = "https://raycadle.github.io/bookmarks"
+    weight = 10
+    
+  [[menu.main]]
+    identifier = "notebook"
+    name = "Notebook"
+    url = "https://raycadle.github.io/notebook"
     weight = 10
     
   [[menu.main]]
