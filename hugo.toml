@@ -12,8 +12,8 @@ disableKinds = ["RSS"]
 [params]
   defaultTheme = "auto"
   disableThemeToggle = false
-  ShowReadingTime = true
-  ShowCodeCopyButtons = true
+  ShowReadingTime = false
+  ShowCodeCopyButtons = false
 
 [params.profileMode]
   enabled = true
@@ -34,17 +34,3 @@ disableKinds = ["RSS"]
 [params.assets]
   css = ["css/custom/custom.css"]
   favicons = "favicon.ico"
-
-[menu]
-    
-  [[menu.main]]
-    identifier = "notebook"
-    name = "Notebook"
-    url = "https://raycadle.github.io/notebook"
-    weight = 10
-    
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "https://github.com/raycadle?tab=repositories"
-    weight = 10
