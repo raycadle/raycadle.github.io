@@ -153,3 +153,18 @@ a:hover {
   background: var(--ctp-surface1);
   color: var(--primary);
 }
+
+/* Remove underlines from PaperMod buttons */
+.button,
+a.button,
+.top-link,
+#menu a,
+.logo a {
+  text-decoration: none;
+}
+
+/* Keep underlines in post content */
+.post-content a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
