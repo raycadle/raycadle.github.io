@@ -1,0 +1,155 @@
+
+/* === JetBrains Mono Nerd Font === */
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  src: url("/fonts/JetBrainsMonoNerd/JetBrainsMonoNerdFontMono-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  src: url("/fonts/JetBrainsMonoNerd/JetBrainsMonoNerdFontMono-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  src: url("/fonts/JetBrainsMonoNerd/JetBrainsMonoNerdFontMono-Italic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* === Catppuccin Latte === */
+:root {
+  color-scheme: light;
+
+  --ctp-rosewater: #dc8a78;
+  --ctp-flamingo: #dd7878;
+  --ctp-pink: #ea76cb;
+  --ctp-mauve: #8839ef;
+  --ctp-red: #d20f39;
+  --ctp-maroon: #e64553;
+  --ctp-peach: #fe640b;
+  --ctp-yellow: #df8e1d;
+  --ctp-green: #40a02b;
+  --ctp-teal: #179299;
+  --ctp-sky: #04a5e5;
+  --ctp-sapphire: #209fb5;
+  --ctp-blue: #1e66f5;
+  --ctp-lavender: #7287fd;
+
+  --ctp-text: #4c4f69;
+  --ctp-subtext1: #5c5f77;
+  --ctp-subtext0: #6c6f85;
+  --ctp-overlay0: #9ca0b0;
+  --ctp-surface0: #ccd0da;
+  --ctp-surface1: #bcc0cc;
+  --ctp-surface2: #acb0be;
+  --ctp-base: #eff1f5;
+  --ctp-mantle: #e6e9ef;
+  --ctp-crust: #dce0e8;
+
+  /* PaperMod light theme */
+  --theme: var(--ctp-base);
+  --entry: var(--ctp-mantle);
+  --primary: var(--ctp-text);
+  --secondary: var(--ctp-subtext0);
+  --tertiary: var(--ctp-surface0);
+  --content: var(--ctp-text);
+  --code-block-bg: #e6e9ef;
+  --code-bg: #dce0e8;
+  --border: #bcc0cc;
+
+  --font-mono: "JetBrainsMono Nerd Font", monospace;
+}
+
+/* === Catppuccin Mocha === */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --ctp-rosewater: #f5e0dc;
+  --ctp-flamingo: #f2cdcd;
+  --ctp-pink: #f5c2e7;
+  --ctp-mauve: #cba6f7;
+  --ctp-red: #f38ba8;
+  --ctp-maroon: #eba0ac;
+  --ctp-peach: #fab387;
+  --ctp-yellow: #f9e2af;
+  --ctp-green: #a6e3a1;
+  --ctp-teal: #94e2d5;
+  --ctp-sky: #89dceb;
+  --ctp-sapphire: #74c7ec;
+  --ctp-blue: #89b4fa;
+  --ctp-lavender: #b4befe;
+
+  --ctp-text: #cdd6f4;
+  --ctp-subtext1: #bac2de;
+  --ctp-subtext0: #a6adc8;
+  --ctp-overlay0: #6c7086;
+  --ctp-surface0: #313244;
+  --ctp-surface1: #45475a;
+  --ctp-surface2: #585b70;
+  --ctp-base: #1e1e2e;
+  --ctp-mantle: #181825;
+  --ctp-crust: #11111b;
+
+  /* PaperMod dark theme */
+  --theme: var(--ctp-base);
+  --entry: var(--ctp-mantle);
+  --primary: var(--ctp-text);
+  --secondary: var(--ctp-subtext1);
+  --tertiary: var(--ctp-surface1);
+  --content: var(--ctp-text);
+  --code-block-bg: var(--ctp-mantle);
+  --code-bg: var(--ctp-surface0);
+  --border: var(--ctp-surface1);
+}
+
+/* === Typography === */
+body {
+  font-family: var(--font-mono);
+  line-height: 1.7;
+}
+
+/* === Links === */
+a {
+  color: var(--ctp-blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--ctp-mauve);
+}
+
+/* === Headings === */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-title {
+  color: var(--primary);
+}
+
+/* === Inline code === */
+.post-content code {
+  color: var(--ctp-mauve);
+  background: var(--code-bg);
+}
+
+/* === Blockquotes === */
+.post-content blockquote {
+  border-inline-start: 3px solid var(--ctp-mauve);
+  color: var(--secondary);
+}
+
+/* === Text selection === */
+::selection {
+  background: var(--ctp-surface1);
+  color: var(--primary);
+}
