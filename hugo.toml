@@ -18,7 +18,7 @@ disableKinds = ["RSS"]
 [params.profileMode]
   enabled = true
   title = "✌️ Yo, I'm Ray!"
-  subtitle = "Learner • Car Nerd • Builder/Breaker of Things"
+  subtitle = "Passionate Learner • Car Nerd • Fixer of Things"
   imageUrl = "images/avatar.png"
   imageWidth = 160
   imageHeight = 160
@@ -28,8 +28,8 @@ disableKinds = ["RSS"]
     url = "https://raycadle.github.io/notebook"
     
   [[params.profileMode.buttons]]
-    name = "Projects"
-    url = "https://github.com/raycadle?tab=repositories"
+    name = "Github"
+    url = "https://github.com/raycadle"
 
 [params.assets]
   css = ["css/custom/custom.css"]
